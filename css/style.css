@@ -1,0 +1,108 @@
+.navigasi {
+    background-color: #999933;
+}
+
+.belanja {
+    margin-left: 20px;
+}
+
+.awal {
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.logo{
+    /* margin-top: 15px; */
+    max-width: 200px;
+    /* text-align: right; */
+}
+
+.parallax-container {
+    height: 20%;
+}
+
+/* .clients {
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+        } */
+.parallax img {
+    /* filter: grayscale(1); */
+    opacity: 0.5 !important;
+}
+
+.clients img {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    max-width: 200px;
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));
+}
+
+.menu1 {
+    max-height: 100px;
+    margin-top: 50px;
+}
+
+.menu2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.awal1 {
+    padding: 13px;
+}
+
+.menu3 {
+    /* width: 350px; */
+    max-width: 350px;
+}
+
+footer {
+    margin-top: 3px;
+    padding: 5px 0px;
+}
+
+.bawah {
+    padding-bottom: 0px;
+    padding-top: 10px;
+}
+
+.bawah2 {
+    font-size: 20px;
+}
+
+.utama {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bg {
+    background-image: url('../img/bg.jpg');
+    background-size: 1450px;
+    ;
+
+}
+
+.bg2 {
+    padding-top: 225px;
+    padding-bottom: 250px;
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));
+}
+
+.logo2 {
+    max-width: 400px;
+}
+
+.bgm {
+    background-image: url('../img/bg.jpg');
+    background-size: 1450px;
+    ;
+
+}
+
+.bgm2 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));
+}
+.bgl {
+    margin-top: 15px;
+    max-height: 100px;
+}

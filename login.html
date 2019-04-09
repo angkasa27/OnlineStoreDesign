@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+            .kartu{
+                width: 400px;
+                margin-top: 15%;
+            }
+            .logo{
+                max-width: 150px;
+            }
+            .pilihan{
+                color: #999933;
+            }
+            .tes{
+                background-image: url('../img/bg.jpg');
+                background-size: 1450px;
+                filter: blur();
+            }
+        </style>
+    </head>
+    <body class="tes">
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col m3"></div>
+                    <div class="col m6">
+                        <div class="card kartu">
+                            <div class="card-content center">
+                                <img class="logo" src="img/logo.png" alt="">
+                            </div>
+                            <div class="card-tabs">
+                                <ul class="tabs tabs-fixed-width tabs-transparent">
+                                    <li class="tab"><a class="active lime-text text-darken-3" href="#login">MASUK</a>
+                                    </li>
+                                    <li class="tab"><a class="lime-text text-darken-3" href="#daftar">DAFTAR</a>
+                                    </li>
+                                    <li class="indicator lime" style="left: 0px; right: 0px;"></li>
+                                </ul>
+                            </div>
+                            <div class="card-content">
+                                <div id="login">
+                                    <form action="" class="center">
+                                        <div class="input-field">
+                                            <i class="material-icons prefix">account_circle</i>
+                                            <input id="icon_prefix" type="email" class="validate">
+                                            <label for="icon_prefix">Email</label>
+                                        </div>
+                                        <div class="input-field">
+                                            <i class="material-icons prefix">lock</i>
+                                            <input id="icon_telephone" type="password" class="validate">
+                                            <label for="icon_telephone">Password</label>
+                                        </div>
+                                        <button class="btn waves-effect waves-light lime darken-3"
+                                            type="submit" name="action">MASUK
+                                        </button>
+                                    </form>
+                                </div>
+                                <div id="daftar">
+                                    <form class="center">
+                                        <div class="input-field">
+                                            <i class="material-icons prefix">account_circle</i>
+                                            <input id="icon_prefix" type="text" class="validate">
+                                            <label for="icon_prefix">Nama</label>
+                                        </div>
+                                        <div class="input-field">
+                                            <i class="material-icons prefix">mail</i>
+                                            <input id="icon_prefix" type="text" class="validate">
+                                            <label for="icon_prefix">Email</label>
+                                        </div>
+                                        <div class="input-field">
+                                            <i class="material-icons prefix">phone</i>
+                                            <input id="icon_telephone" type="number" class="validate">
+                                            <label for="icon_telephone">Telepon</label>
+                                        </div>
+                                        <div class="input-field">
+                                            <i class="material-icons prefix">lock</i>
+                                            <input id="icon_prefix" type="text" class="validate">
+                                            <label for="icon_prefix">Password</label>
+                                        </div>
+                                        <button class="btn waves-effect waves-light lime darken-3" type="submit"
+                                            name="action">MASUK
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col s12 m6">
+                    <h5>Colored</h5>
+                    <div class="card blue">
+                        <div class="card-content white-text">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am
+                                convenient because I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-tabs">
+                            <ul class="tabs tabs-fixed-width tabs-transparent">
+                                <li class="tab"><a class="active" href="#test1">Test 1</a></li>
+                                <li class="tab"><a href="#test2">Test 2</a></li>
+                                <li class="tab"><a href="#test3">Test 3</a></li>
+                                
+                            </ul>
+                        </div>
+                        <div class="card-content blue lighten-5">
+                            <div class="active" id="test1" style="display: block;">Test 1</div>
+                            <div id="test2" style="display: none;">Test 2</div>
+                            <div id="test3" style="display: none;">Test 3</div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+        <!--JavaScript at end of body for optimized loading-->
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script>
+            const sideNav = document.querySelectorAll('.sidenav');
+            M.Sidenav.init(sideNav);
+            const tabs = document.querySelectorAll('.tabs');
+            M.Tabs.init(tabs);  
+    </script>
+    </body>
+
+</html>
